@@ -13,6 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { FCM } from '@ionic-native/fcm';
 
+import { HighlightJsModule, HighlightJsService } from 'angular2-highlight-js';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -23,7 +25,8 @@ import { FCM } from '@ionic-native/fcm';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HighlightJsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,6 +38,7 @@ import { FCM } from '@ionic-native/fcm';
   ],
   providers: [
     FCM,
+    HighlightJsService,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

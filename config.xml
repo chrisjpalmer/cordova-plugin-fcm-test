@@ -87,4 +87,5 @@
         <variable name="GOOGLE_API_VERSION" value="11.4.2" />
     </plugin>
     <plugin name="cordova-plugin-fcm" spec="git+https://github.com/ostownsville/cordova-plugin-fcm.git" />
+    <allow-navigation href="http://192.168.20.16:8101" />
 </widget>
