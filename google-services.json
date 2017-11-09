@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "703111598464",
+    "firebase_url": "https://cordova-fcm-plugin-test-eff72.firebaseio.com",
+    "project_id": "cordova-fcm-plugin-test-eff72",
+    "storage_bucket": "cordova-fcm-plugin-test-eff72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703111598464:android:cf1d79f0034cdf3a",
+        "android_client_info": {
+          "package_name": "com.cordova.plugin.fcm.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703111598464-7lj04l8m7d71kd8e6jmiiqf1fkoaegvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA003NYZbfTKTs0BeWq5QGXcG4ZqGdBO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
