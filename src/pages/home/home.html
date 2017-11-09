@@ -5,13 +5,15 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <div class="main-container"> 
+    <div class="small">
+      <h2>Welcome to Cordova Plugin FCM Test!</h2>
+      <p>When a notification comes through, you will see something in the below space</p>
+    </div>
+    <div class = "notification-container">
+      <p class="time" *ngIf="time"><b>Time of notification:</b> {{time}}</p>
+      <pre class="notification-box"><code class="json">{{notification}}</code></pre>
+    </div>
+  </div>
+  
 </ion-content>
