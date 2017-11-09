@@ -83,4 +83,8 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.11" />
     <engine name="ios" spec="~4.5.0" />
     <engine name="android" spec="~6.2.3" />
+    <plugin name="cordova-google-api-version" spec="0.0.1">
+        <variable name="GOOGLE_API_VERSION" value="11.4.2" />
+    </plugin>
+    <plugin name="cordova-plugin-fcm" spec="https://github.com/ostownsville/cordova-plugin-fcm.git" />
 </widget>
