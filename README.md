@@ -3,11 +3,6 @@
 This is a test project to help standardise the testing for Cordova Plugin FCM.
  - Use this project to test a new version of the fcm plugin before it gets published to the main branch.
  - Use this project to test a current version of the fcm plugin on a particular device type to confirm a problem
-# Cordova Plugin FCM Test
-
-This is a test project to help standardise the testing for Cordova Plugin FCM.
- - Use this project to test a new version of the fcm plugin before it gets published to the main branch.
- - Use this project to test a current version of the fcm plugin on a particular device type to confirm a problem
  - Use this project as an example project if you are stuck.
 
 If all the tests are passed, the project managers of Cordova Plugin FCM (ostownsville) should push a new commit to this repo and tag it.
@@ -15,7 +10,7 @@ If all the tests are passed, the project managers of Cordova Plugin FCM (ostowns
 #### Current Plugin Versions:
 | Plugin Version| Date Tested | Status  | Comments|
 | ------------- |:-------------:|:-------------:| -----:|
-| 3.0.2 | 9/11 | Working | 
+| 3.0.2 | 9/11 | Not Working 100% | 
 
 #### Required tests for success:
 | App State | Notification Type | Notification Banner | Notification Callback |
@@ -29,7 +24,7 @@ If all the tests are passed, the project managers of Cordova Plugin FCM (ostowns
 | Background -> Foreground (Tap) | Silent | -- | -- |
 | Background -> Foreground (Tap) | Loud |  -- | Yes |
 
-#### Required iOS versions for success:
+#### Required versions for success:
 | Version |
 | ------------- |
 | iOS 9 ?? |

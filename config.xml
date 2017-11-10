@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.cordova.plugin.fcm" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MyApp</name>
+    <name>Cordova Plugin Test</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -86,6 +86,5 @@
     <plugin name="cordova-google-api-version" spec="0.0.1">
         <variable name="GOOGLE_API_VERSION" value="11.4.2" />
     </plugin>
-    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/ostownsville/cordova-plugin-fcm.git" />
-    <allow-navigation href="http://192.168.20.16:8101" />
+    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/ostownsville/cordova-plugin-fcm.git#444d996778c81d26691ff06e09903c87685cd45c" />
 </widget>
