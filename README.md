@@ -7,10 +7,13 @@ This is a test project to help standardise the testing for Cordova Plugin FCM.
 
 If all the tests are passed, the project managers of Cordova Plugin FCM (ostownsville) should push a new commit to this repo and tag it.
 
+### Using Paw:
+
 #### Current Plugin Versions:
 | Plugin Version| Date Tested | Status  | Comments|
 | ------------- |:-------------:|:-------------:| -----:|
 | 3.0.2 | 9/11 | Not Working 100% | 
+| 3.0.3 | 9/11 | iOS 100%, Android 80% | onTapped on Android is broken | 
 
 #### Required tests for success:
 | App State | Notification Type | Notification Banner | Notification Callback |
