@@ -87,6 +87,6 @@
     <plugin name="cordova-google-api-version" spec="0.0.1">
         <variable name="GOOGLE_API_VERSION" value="11.4.2" />
     </plugin>
-    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/ostownsville/cordova-plugin-fcm.git#444d996778c81d26691ff06e09903c87685cd45c" />
+    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/ostownsville/cordova-plugin-fcm.git#6e80e098a4f50b7ba6db26f06b242f7a753b792b" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
 </widget>

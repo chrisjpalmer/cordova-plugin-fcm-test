@@ -31,7 +31,7 @@
     "cordova-google-api-version": "0.0.1",
     "cordova-ios": "~4.5.3",
     "cordova-plugin-device": "^1.1.4",
-    "cordova-plugin-fcm": "git+https://github.com/ostownsville/cordova-plugin-fcm.git#444d996778c81d26691ff06e09903c87685cd45c",
+    "cordova-plugin-fcm": "git+https://github.com/ostownsville/cordova-plugin-fcm.git#6e80e098a4f50b7ba6db26f06b242f7a753b792b",
     "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-splashscreen": "^4.0.3",
     "cordova-plugin-statusbar": "^2.3.0",
