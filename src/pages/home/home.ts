@@ -18,6 +18,12 @@ export class HomePage {
 	}
 
 	ngAfterViewInit() {
+		this.platform.ready().then(() => {
+			this.init();
+		});
+	}
+
+	init() {
 		if (this.platform.is('cordova')) {
 			//NOTIFICATION CODE...
 			this.fcm.getToken().then(t => {
@@ -40,8 +46,8 @@ export class HomePage {
 				"wasTapped": false,
 				"aps": {
 					"alert": {
-						"title": "Loud Notification",
-						"body": "Loud Notification"
+						"title": "Fake Notification",
+						"body": "Fake Notification"
 					}
 				},
 				"gcm.n.e": "1",
