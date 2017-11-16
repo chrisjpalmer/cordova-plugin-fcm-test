@@ -25,6 +25,13 @@ export class HomePage {
 
 	init() {
 		if (this.platform.is('cordova')) {
+			this.fcm.subscribeToTopic("all");
+			if (this.platform.is('ios')) {
+				this.fcm.subscribeToTopic("ios");
+			} else if (this.platform.is('android')) {
+				this.fcm.subscribeToTopic("android");
+			}
+
 			//NOTIFICATION CODE...
 			this.fcm.getToken().then(t => {
 				console.log("Token Retrieved:" + t);
