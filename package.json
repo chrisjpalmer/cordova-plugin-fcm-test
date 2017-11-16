@@ -29,7 +29,7 @@
     "angular2-highlight-js": "^6.0.1-alpha",
     "cordova-android": "^6.2.3",
     "cordova-google-api-version": "0.0.1",
-    "cordova-ios": "^4.5.0",
+    "cordova-ios": "~4.5.3",
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-fcm": "git+https://github.com/ostownsville/cordova-plugin-fcm.git#444d996778c81d26691ff06e09903c87685cd45c",
     "cordova-plugin-ionic-webview": "^1.1.16",
