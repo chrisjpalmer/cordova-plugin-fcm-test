@@ -9,6 +9,13 @@ If all the tests are passed, the project managers of Cordova Plugin FCM (ostowns
 
 ### Using Paw:
 
+You can use paw to test notifications. A paw file for, 'loud, loud + data, and data only requests is included (located in /paw). 
+Be aware that it currently uses the legacy FCM API and will be updated soon.
+![alt text](https://github.com/chrisjpalmer/cordova-plugin-fcm-test/raw/master/paw/paw1.png "Paw Image 1")
+
+Make sure you change the variable which contains your API Key. You can do this by clicking manage in the top left and adjusting the correct variable.
+![alt text](https://github.com/chrisjpalmer/cordova-plugin-fcm-test/raw/master/paw/paw2.png "Paw Image 2")
+
 #### Current Plugin Versions:
 | Plugin Version| Date Tested | Status  | Comments|
 | ------------- |:-------------:|:-------------:| -----:|
